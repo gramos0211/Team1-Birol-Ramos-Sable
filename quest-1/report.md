@@ -11,11 +11,10 @@ The task at hand was to develop a timed fish feeding system. This would combine 
 Investigative questions: 
     What approach can you use to make setting the time interval dynamic (not hard coded)? Elaborate.
 
-    In order to make the time interval dynamic, there could be several approaches. 
-    For instance, one could take in a user input to change the intervals that they desire when they 
-    initialize the product. Another approach could be with the implementation of more sensors to decide 
-    how the program should decide when to feed the animals. These could be sensors for daylight or by the 
-    weight of the container (checking how much food is left). 
+    In order to make the time interval dynamic, there could be several approaches. For instance, one could take in a user input to 
+    change the intervals that they desire when they initialize the product. Another approach could be with the implementation of more 
+    sensors to decide how the program should decide when to feed the animals. These could be sensors for daylight or by the weight of 
+    the container (checking how much food is left). 
 
 ## Self-Assessment
 
@@ -24,22 +23,22 @@ Investigative questions:
 | Objective Criterion | Rating | Max Value  | 
 |---------------------------------------------|:-----------:|:---------:|
 | Objective One | 1 |  1     |       1         |
-| Objective Two |  |  1     |       1         |
-| Objective Three |  |  1     |     1         |
-| Objective Four |  |  1     |      1         |
-| Objective Five |  |  1     |      1         |
-| Objective Six |  |  1     |       n/a       |
-| Objective Seven |  |  1     |     1         |
+| Objective Two | 1 |  1     |       1         |
+| Objective Three | 1 |  1     |     1         |
+| Objective Four | 1 |  1     |      1         |
+| Objective Five | 1 |  1     |      1         |
+| Objective Six | n/a |  1     |       n/a       |
+| Objective Seven | 1 |  1     |     1         |
 
 
 ### Qualitative Criteria
 
 | Qualitative Criterion | Rating | Max Value  | 
 |---------------------------------------------|:-----------:|:---------:|
-| Quality of solution |  |  5     |       3
-| Quality of report.md including use of graphics |  |  3     |      3
-| Quality of code reporting |  |  3     |       2
-| Quality of video presentation |  |  3     |       1
+| Quality of solution | 3 |  5     |       3
+| Quality of report.md including use of graphics | 3 |  3     |      3
+| Quality of code reporting | 2 |  3     |       2
+| Quality of video presentation | 1 |  3     |       1
 
 
 ## Solution Design

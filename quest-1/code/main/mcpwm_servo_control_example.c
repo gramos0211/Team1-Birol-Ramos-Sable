@@ -1,3 +1,5 @@
+// Ece Birol, Gabriel Ramos, Brendan Sable
+
 /* servo motor control example
 
    This example code is in the Public Domain (or CC0 licensed, at your option.)
@@ -56,7 +58,7 @@ static const uint8_t numbertable[] = {
     0b0000000011111101, // 6
     0b0000000000000111, // 7
     0b0000000011111111, // 8
-    0b0000000011101111
+    0b0000000011101111, // 9
 };
 
 // Function to initiate i2c -- note the MSB declaration!

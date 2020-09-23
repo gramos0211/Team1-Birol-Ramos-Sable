@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/CMakeFiles/bootloader
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/CMakeFiles/bootloader.rule
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/CMakeFiles/bootloader-complete.rule
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/CMakeFiles/bootloader
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/CMakeFiles/bootloader.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/CMakeFiles/bootloader-complete.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

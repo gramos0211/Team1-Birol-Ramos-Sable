@@ -1,4 +1,4 @@
-# Install script for directory: C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/main
+# Install script for directory: C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

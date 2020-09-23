@@ -46,17 +46,39 @@ The solution design was aimed towards maintaining a clean, simple and efficient 
 
 ## Sketches and Photos
 <center><img src="./images/ece444.png" width="25%" /></center>  
-<center>![Circuit Drawing](./images/circuitdrawing.JPEG)</center>
+
+<div style="text-align: center">
+    <table>
+        <tr>
+            <td style="text-align: center">
+                    <img src="https://github.com/gramos0211/Team1-Birol-Ramos-Sable/blob/master/quest-1/images/circuitdrawing.jpeg"/>
+            </td>  
+      </tr>
+  </table>
+  </div>
+
 <center> The image above demonstrates the circuit set up in order to test the code. The wires are color coded for ease of visibility and undestanding. </center>
 
-<center>![Breadboard](./images/quest1-setup.JPEG)</center>
+<div style="text-align: center">
+    <table>
+        <tr>
+            <td style="text-align: center">
+                    <img src="https://github.com/gramos0211/Team1-Birol-Ramos-Sable/blob/master/quest-1/images/quest1-setup.jpeg"/>
+            </td>  
+      </tr>
+  </table>
+  </div>
+
 <center>The figure above presents the physicial setup of the board that imitates the circuit drawing provided previously.</center>
 
 
 ## Supporting Artifacts
 
 This video is presents the original concept for counting down to activate the servo:
-- ![Prototype Video](./images/countdown.PNG)(https://drive.google.com/file/d/11FQ1tGG6YgDUnX_ngiswFYWdyIu3MIny/view?usp=sharing)
+ 
+
+
+- (https://drive.google.com/file/d/11FQ1tGG6YgDUnX_ngiswFYWdyIu3MIny/view?usp=sharing)
 
 It counts down in 15 second intervals and then "shakes" the container by rotating the servo 3 times.
 

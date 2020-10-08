@@ -11,7 +11,9 @@ The task at hand was to develop a timed fish feeding system. This would combine 
 Investigative questions: 
     What approach can you use to make setting the time interval dynamic (not hard coded)? Elaborate.
 
-    In order to make the time interval dynamic, there could be several approaches. For instance, one could take in a user input to 
+     Infrared sensor values normally fluctuate in variant light conditions.  
+
+	When objects pass within the range, the light waves detect those objects and reflect the presence back to the sensor. Their wavelengths are less than that of microwaves.  While they’re able to detect motion, they can also measure the emission of heat by an object.In order to make the time interval dynamic, there could be several approaches. For instance, one could take in a user input to 
     change the intervals that they desire when they initialize the product. Another approach could be with the implementation of more 
     sensors to decide how the program should decide when to feed the animals. These could be sensors for daylight or by the weight of 
     the container (checking how much food is left). 

@@ -63,7 +63,6 @@ Plotting: your plotting part should generate real-time strip-chart display(s)
 The solution design was aimed towards maintaining a clean, simple and efficient look. Aside from that the design followed the one instructed from the Alphanumeric I2C Display with the added servo.
 
 
-
 ## Sketches and Photos
 
 ## Supporting Artifacts

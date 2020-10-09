@@ -1,4 +1,4 @@
-# Install script for directory: C:/esp-idf/components/vfs
+# Install script for directory: C:/Users/Gabriel/Desktop/esp-idf/components/vfs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

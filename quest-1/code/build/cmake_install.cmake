@@ -1,4 +1,4 @@
-# Install script for directory: C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9
+# Install script for directory: C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/esp-idf/examples/peripherals/mcpwm/mcpwm_servo_controlS9/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Gabriel/Documents/EC444/Team1-Birol-Ramos-Sable/quest-1/code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

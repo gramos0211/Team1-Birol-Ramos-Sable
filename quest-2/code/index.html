@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+	<script type="text/javascript">
+
+
+		$.get("http://localhost:3000/sensors", function (data) {
+			$(".result").html(data);
+			//alert("Load was performed.\n" + data);
+
+			var points = [[],[],[],[]];
+			const numSeries = 3;
+
+
+			var lines = data.split("\n");
+			for(i = 1; i < lines.length -1; i++) {
+				var line = lines[i].split(",");
+				points[0].push({x: parseInt(line[0],10), y: parseFloat(line[1])});	//IR
+				points[1].push({x: parseInt(line[0],10), y: parseFloat(line[2])});	//temperature
+				points[2].push({x: parseInt(line[0],10), y: parseFloat(line[3])});	//Ultrasonic
+			}
+			window.onload = function () {
+				var chart1 = new CanvasJS.Chart("chartContainer1", {
+					title: {
+						text: "Sensor Readings😂👌"
+					},
+
+					axisY:[{
+						title: "Distance IR (cm)",
+						includeZero: true,
+					},
+					{
+						title: "Temperature (C)",
+						includeZero: true,
+					},
+					{
+						title: "Distance Ultrasonic (cm)",
+						includeZero: true,
+					}],
+
+					data: [{
+						name: "IR Sensor",
+						type: "spline",
+						axisYIndex: 0,
+						showInLegend: true,
+						dataPoints: points[0]
+					},
+					{
+						name: "Thermomistor",
+						type: "spline",
+						axisYIndex: 1,
+						showInLegend: true,
+						dataPoints: points[1]
+					},
+					{
+						name: "Ultrasonic Sensor",
+						type: "spline",
+						axisYIndex: 2,
+						showInLegend: true,
+						dataPoints: points[2]
+					}]
+				});
+
+				chart1.render();
+			}
+		});
+
+	</script>
+	<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+</head>
+
+<body>
+	<h1>Group 1: Skill 18</h1>
+
+	<h2>Example Chart 1:</h2>
+	<div id="chartContainer1" style="height: 300px; width: 100%;"></div>
+</body>
+
+</html>

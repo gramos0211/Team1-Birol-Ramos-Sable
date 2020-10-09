@@ -1,8 +1,5 @@
-# Code Readme
+# Blink Example
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
+Starts a FreeRTOS task to blink an LED
 
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+See the README.md file in the upper level 'examples' directory for more information about examples.
